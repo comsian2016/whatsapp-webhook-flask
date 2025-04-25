@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: whatsapp-webhook
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run.py
+    envVars:
+      - key: ACCESS_TOKEN
+        value: EAAPNXagIZB84BO0vA6WIvYZCM5ZB8MN1EC9gEKNhOZBfEov4wTzJkH7115KC5iZA1nqygixwYfnBtcuLtSPQEqtGCKZBeGdtyBqMgBA6eJc8XZBbjtvlfqkoi1YJsJG07h7FKV6rJl85IIv9sZAyKmmiEuLttAJ9QxIGGpFyDPJE9cYwRSZCIVxqxOMwNYvjIcpbZBteF5AQBrtm2Osfd6uV0Mn0fv99oZD
+      - key: APP_ID
+        value: 1070227064945614
+      - key: APP_SECRET
+        value: 8b19a484858db909726de6b8bfbc0f06
+      - key: RECIPIENT_WAID
+        value: +923336246663
+      - key: VERSION
+        value: v22.0
+      - key: PHONE_NUMBER_ID
+        value: 551555431385025
+      - key: VERIFY_TOKEN
+        value: my_secure_verify_token_12345
+      - key: OPENAI_API_KEY
+        value: 
+      - key: OPENAI_ASSISTANT_ID
+        value: 

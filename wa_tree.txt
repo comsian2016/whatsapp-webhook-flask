@@ -1,0 +1,42 @@
+Folder PATH listing
+Volume serial number is 000000A3 449C:2E27
+C:\PYTHON312\SOURCE CODE\PYTHON-WHATSAPP-BOT-MAIN
+|   .gitignore
+|   example copy.env
+|   example.env
+|   LICENCE.txt
+|   README.md
+|   requirements.txt
+|   run.py
+|   wa_tree.txt
+|   
++---app
+|   |   config.py
+|   |   README.md
+|   |   views.py
+|   |   __init__.py
+|   |   
+|   +---decorators
+|   |       security.py
+|   |       
+|   +---services
+|   |       openai_service.py
+|   |       
+|   \---utils
+|           whatsapp_utils.py
+|           __init__.py
+|           
++---data
+|       airbnb-faq.pdf
+|       
++---docs
+|       botpress_connection.md
+|       
++---img
+|       adding-assets-to-system-user.png
+|       meta-business-system-user-token.png
+|       
+\---start
+        assistants_quickstart.py
+        whatsapp_quickstart.py
+        
