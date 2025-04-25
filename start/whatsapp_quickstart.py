@@ -8,8 +8,15 @@ import asyncio
 # --------------------------------------------------------------
 # Load environment variables
 # --------------------------------------------------------------
+# Specify the full path to your .env file
+env_path = r"C:\Python312\source code\python-whatsapp-bot-main\start"
 
-load_dotenv(find_dotenv())  # Ensure the .env file is loaded correctly
+# Load the .env file
+load_dotenv(env_path)
+
+# Check if variables are loaded
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+print("ACCESS_TOKEN:", ACCESS_TOKEN)
 
 # Fetch environment variables
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
