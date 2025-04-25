@@ -6,7 +6,7 @@ services:
     startCommand: python run.py
     envVars:
       - key: ACCESS_TOKEN
-        value: EAAPNXagIZB84BOy30nGVVjZBTe1ZBK4AIvpjTe1hyZATwrwH7NZBca4aMLu8fz83bTurQnpLq81LaFWoDZBTvlx7qAuIXgp83ribdw36Gf86FfhD2xWd2RDP2zWeZA9c3jgVMkPSAlRkQopeXSwNx9DgZBEQhdXR2qZBrHmXoB40ZCeRF1xYOCGyZAwYlBtlVqnstcefgAQcdk6iZBv1xrMgjRscyDsI
+        value: EAAPNXagIZB84BO09xyxCKZAzOZBSPNCmDaruZCiue14meaTCJW4dZAMKDiZBJDhCbZC9ZAupjMMNXPkLjqEQIqy1P5fdr1mxdiwZA4U1yDMPeVab15RCQI0fJpiWEVfJgVhwM3djvbDHfZCn3z0CedAj3r3ifZAMeu2fBsf4ZADy5ixsvZC4W0AuUmpoeZB2vHRmOF6tw9r8fA4Fa7tcUqdODJlduNXF3D
       - key: APP_ID
         value: 1070227064945614
       - key: APP_SECRET
