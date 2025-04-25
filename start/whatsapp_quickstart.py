@@ -9,7 +9,8 @@ import asyncio
 # Load environment variables
 # --------------------------------------------------------------
 # Specify the full path to your .env file
-env_path = r"C:\Python312\source code\python-whatsapp-bot-main\start"
+#env_path = r"C:\Python312\source code\python-whatsapp-bot-main\start"
+env_path = os.path.join(os.getcwd(), 'start', '.env')
 
 # Load the .env file
 load_dotenv(env_path)
